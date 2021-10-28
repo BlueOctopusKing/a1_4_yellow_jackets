@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="1dgkb[:f;!MQHz?*$g8)" x="538" y="-169"><field name="NAME">Button.B</field><comment>Both eyes on the smiley face blink (turn off) 4 times when the B button is pressed. After blinking the smiley face has both eyes open.</comment><statement name="HANDLER"><block type="controls_repeat_ext" id="9~jFIxTF0d2iLJy8y@5f"><comment>blinks the face's right eye (left to the user) 4 times</comment><value name="TIMES"><shadow type="math_number" id="UDrE$^dRVf~!mK#bEa6V"><field name="NUM">4</field></shadow></value><statement name="DO"><block type="device_show_leds" id="3JrB=%d]|8|4tFT#5j4f"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="]T{%os?6bbJ5A[Oh7%6`"><value name="pause"><shadow type="math_number" id="t3hcN5Pr2ZUL#C%H{$N4"><field name="NUM">100</field></shadow></value><next><block type="device_show_leds" id=":Sj-+(;-Moqb~Al:vErp"><field name="LEDS">`
+        . . . # . 
+        . . . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="IbPHs9(8(9%oN8BXFN`["><value name="pause"><shadow type="math_number" id="*#`h;dd%}!w_xc7cd|:s"><field name="NUM">100</field></shadow></value><next><block type="device_show_leds" id="/,l[YDRoX,%2uup{(`{x"><field name="LEDS">`
+        . # . . . 
+        . # . . . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="Ox$M@ivXc~,9j|`XGYZh"><value name="pause"><shadow type="timePicker" id=":I[Z__HN*:f`4cYI|q=2"><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="`kl}{Knz(!rpgBw#sORv"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="t#tHWs!+`n0;CKDot+mF"><value name="pause"><shadow type="timePicker" id="5jeWFYOpWDC}adel@SJS"><field name="ms">100</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block></xml>
